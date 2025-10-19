@@ -52,7 +52,7 @@ export const authConfig: NextAuthConfig = {
   },
   pages: {
     signIn: '/login',
-    error: '/login',
+    error: '/auth/error',
   },
   callbacks: {
     async jwt({ token, user }) {
