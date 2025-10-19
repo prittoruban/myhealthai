@@ -12,7 +12,7 @@
 
 **🎯 Tackling India's Oil Consumption Crisis | 🤖 RasoiAI Recipe Assistant | 📊 Smart Health Tracking**
 
-[🚀 Try Live Demo](https://myhealthaione.vercel.app) • [📖 Competition Summary](./COMPETITION_SUMMARY.md) • [🎥 Demo Video](#) • [📄 Documentation](#-documentation)
+[🚀 Try Live Demo](https://myhealthaione.vercel.app) 
 
 ---
 
@@ -679,35 +679,6 @@ The application uses **Tailwind CSS** for styling with:
 
 ---
 
-## 📚 Documentation
-
-- 📖 **[Competition Summary](./COMPETITION_SUMMARY.md)** - Feature showcase for judges
-- 🚀 **[Deployment Guide](./DEPLOYMENT_GUIDE.md)** - Step-by-step deployment
-- 🐛 **[Troubleshooting](./TROUBLESHOOTING.md)** - Common issues & fixes
-- ⚡ **[Quick Fix Guide](./QUICK_FIX_GUIDE.md)** - Rapid problem resolution
-
----
-
-## 📸 Screenshots
-
-<div align="center">
-
-### 🏠 Landing Page
-*Premium dark theme with glassmorphism, testimonials, and Quick Demo button*
-
-### 📊 Dashboard
-*National campaign integration, health metrics, achievements, behavioral nudges*
-
-### 🤖 RasoiAI
-*AI recipe search with oil comparison, nutritional insights, alternative methods*
-
-### 🎮 Gamification
-*Points, achievements, streaks, and community impact visualization*
-
-</div>
-
----
-
 ## 🚀 Quick Setup (Developers)
 
 ```bash
@@ -765,7 +736,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👥 Team & Contact
 
 **Project Lead**: Pritto Ruban  
-**Email**: [Your Email]  
+**Email**: prittoprogrammer@gmail.com  
 **GitHub**: [@prittoruban](https://github.com/prittoruban)
 
 For questions, feedback, or collaboration opportunities:
