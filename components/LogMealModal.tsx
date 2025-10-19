@@ -72,13 +72,13 @@ export default function LogMealModal({
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-      <div className="bg-white rounded-2xl p-8 max-w-md w-full mx-4">
+    <div className="fixed inset-0 bg-black/80 backdrop-blur-sm flex items-center justify-center z-50">
+      <div className="glass-strong rounded-2xl p-8 max-w-md w-full mx-4 border border-white/20 shadow-2xl shadow-green-500/20">
         <div className="flex justify-between items-center mb-6">
-          <h2 className="text-2xl font-bold text-gray-800">Log Meal</h2>
+          <h2 className="text-2xl font-bold text-white">Log Meal</h2>
           <button
             onClick={onClose}
-            className="text-gray-400 hover:text-gray-600"
+            className="text-gray-400 hover:text-gray-200 transition-colors"
           >
             <svg
               className="w-6 h-6"
@@ -98,13 +98,13 @@ export default function LogMealModal({
 
         <form onSubmit={handleSubmit} className="space-y-4">
           {error && (
-            <div className="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded-lg text-sm">
+            <div className="glass-strong border border-red-400/50 text-red-300 px-4 py-3 rounded-lg text-sm">
               {error}
             </div>
           )}
 
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-2">
+            <label className="block text-sm font-medium text-gray-300 mb-2">
               Meal Name
             </label>
             <input
@@ -114,13 +114,13 @@ export default function LogMealModal({
               onChange={(e) =>
                 setFormData({ ...formData, mealName: e.target.value })
               }
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+              className="w-full px-4 py-2 glass-strong border border-white/20 rounded-lg focus:ring-2 focus:ring-[#f70776] focus:border-[#f70776] text-white placeholder-gray-500"
               placeholder="e.g., Lunch - Dal Tadka"
             />
           </div>
 
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-2">
+            <label className="block text-sm font-medium text-gray-300 mb-2">
               Oil Type
             </label>
             <select
@@ -129,11 +129,11 @@ export default function LogMealModal({
               onChange={(e) =>
                 setFormData({ ...formData, oilType: e.target.value })
               }
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+              className="w-full px-4 py-2 glass-strong border border-white/20 rounded-lg focus:ring-2 focus:ring-[#f70776] focus:border-[#f70776] text-white"
             >
-              <option value="">Select oil type</option>
+              <option value="" className="bg-gray-800">Select oil type</option>
               {oilTypes.map((oil) => (
-                <option key={oil} value={oil}>
+                <option key={oil} value={oil} className="bg-gray-800">
                   {oil}
                 </option>
               ))}
@@ -141,7 +141,7 @@ export default function LogMealModal({
           </div>
 
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-2">
+            <label className="block text-sm font-medium text-gray-300 mb-2">
               Quantity (ml)
             </label>
             <input
@@ -153,7 +153,7 @@ export default function LogMealModal({
               onChange={(e) =>
                 setFormData({ ...formData, quantityInMl: e.target.value })
               }
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+              className="w-full px-4 py-2 glass-strong border border-white/20 rounded-lg focus:ring-2 focus:ring-[#f70776] focus:border-[#f70776] text-white placeholder-gray-500"
               placeholder="e.g., 15"
             />
           </div>
@@ -162,14 +162,14 @@ export default function LogMealModal({
             <button
               type="button"
               onClick={onClose}
-              className="flex-1 px-4 py-2 border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 transition"
+              className="flex-1 px-4 py-2 glass-strong border border-white/20 text-gray-300 rounded-lg hover:border-white/40 hover:text-white transition-all"
             >
               Cancel
             </button>
             <button
               type="submit"
               disabled={loading}
-              className="flex-1 px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition disabled:bg-gray-400"
+              className="flex-1 px-4 py-2 bg-gradient-to-r from-[#f70776] to-[#c3195d] text-white rounded-lg hover:shadow-xl hover:shadow-[#f70776]/50 transition-all transform hover:-translate-y-1 disabled:opacity-50 disabled:cursor-not-allowed"
             >
               {loading ? 'Logging...' : 'Log Meal'}
             </button>

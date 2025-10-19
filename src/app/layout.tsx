@@ -18,6 +18,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "MyHealthAI - Track Your Edible Oil Consumption",
   description: "Help Indian users track and reduce daily edible oil consumption with AI-powered insights",
+  icons: {
+    icon: "/image.png",
+    shortcut: "/image.png",
+    apple: "/image.png",
+  },
 };
 
 export default function RootLayout({

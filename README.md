@@ -2,27 +2,51 @@
 
 A culturally aware web application designed to help Indian users track and reduce their daily edible oil consumption. Built with modern web technologies and a layered architecture for maintainability and scalability.
 
+> **🏆 COMPETITION-READY UPDATE**: Now includes Quick Demo button in navbar, RasoiAI demo suggestions, testimonials, social proof, premium animations, and judge-friendly features! See [COMPETITION_SUMMARY.md](./COMPETITION_SUMMARY.md) for complete details.
+
 ## 🚀 Quick Demo for Judges/Evaluators
 
-**Try it instantly with ONE CLICK!**
+**Try it instantly - THREE WAYS!**
 
-1. Visit the landing page
-2. Click the **"Try Demo Now - One Click!"** banner at the top
-3. You'll be automatically logged in with pre-populated data:
-   - 17 sample meals across 7 days
-   - Weekly consumption trends
-   - Personalized insights
-   - 75 gamification points
+1. **Quick Demo Button** (FASTEST ⚡)
+   - Click the **"✨ Quick Demo"** button in the navigation bar
+   - Pulsing pink badge for easy spotting
+   - One-click auto-login to demo account
+   - Instant dashboard access
 
-**Demo Credentials** (if needed):
-- Email: `demo@myhealthai.com`
-- Password: `demo123`
+2. **Demo Banner**
+   - Click **"Try Demo Now - One Click!"** banner at the top of homepage
+   - Automatically logged in with pre-populated data
+
+3. **Manual Login** (if needed)
+   - Email: `demo@myhealthai.com`
+   - Password: `demo123`
+
+### What's Included in Demo:
+- ✅ 17 sample meals across 7 days
+- ✅ Weekly consumption trends with visual graphs
+- ✅ Personalized health insights
+- ✅ 75 gamification points
+- ✅ RasoiAI with demo recipe suggestions (Dosa, Poha, Paratha, Dal, Paneer, Biryani)
+- ✅ Progress tracking with circular indicators
 
 For complete evaluation guidelines, see [EVALUATION.md](./EVALUATION.md)
 
 ---
 
 ## 🎯 Features
+
+### 🆕 Competition-Ready Enhancements
+
+- **✨ Quick Demo Button**: Prominent navbar button with pulsing animation for instant demo access
+- **🍳 RasoiAI Demo Suggestions**: Popular dish chips (6 suggestions) for easy recipe exploration
+- **💬 Testimonials Section**: User reviews with ratings and social proof
+- **🎨 Premium Dark UI**: Custom pink/magenta theme with glassmorphism effects
+- **🎬 Smooth Animations**: Scale-in, fade-in, float, and glow-pulse effects
+- **📱 Fully Responsive**: Optimized for desktop, tablet, and mobile
+- **🎯 Judge-Optimized**: Clear CTAs, instant demo, pre-populated data
+
+### Core Features
 
 - **🚀 One-Click Demo**: Instant access with pre-populated data for judges/evaluators
 - **🔐 User Authentication**: Secure email/password authentication using NextAuth.js
