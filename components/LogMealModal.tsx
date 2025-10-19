@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { useToast } from '@/components/ToastProvider';
 
 interface LogMealModalProps {
   isOpen: boolean;
@@ -13,6 +14,7 @@ export default function LogMealModal({
   onClose,
   onSuccess,
 }: LogMealModalProps) {
+  const { showToast } = useToast();
   const [formData, setFormData] = useState({
     mealName: '',
     oilType: '',
@@ -52,13 +54,16 @@ export default function LogMealModal({
 
       if (!response.ok) {
         setError(data.error || 'Failed to log meal');
+        showToast(data.error || 'Failed to log meal', 'error');
       } else {
         setFormData({ mealName: '', oilType: '', quantityInMl: '' });
+        showToast('Meal logged successfully! +1 point', 'success');
         onSuccess();
         onClose();
       }
     } catch {
       setError('An unexpected error occurred');
+      showToast('An unexpected error occurred', 'error');
     } finally {
       setLoading(false);
     }

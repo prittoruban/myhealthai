@@ -2,14 +2,38 @@
 
 A culturally aware web application designed to help Indian users track and reduce their daily edible oil consumption. Built with modern web technologies and a layered architecture for maintainability and scalability.
 
+## 🚀 Quick Demo for Judges/Evaluators
+
+**Try it instantly with ONE CLICK!**
+
+1. Visit the landing page
+2. Click the **"Try Demo Now - One Click!"** banner at the top
+3. You'll be automatically logged in with pre-populated data:
+   - 17 sample meals across 7 days
+   - Weekly consumption trends
+   - Personalized insights
+   - 75 gamification points
+
+**Demo Credentials** (if needed):
+- Email: `demo@myhealthai.com`
+- Password: `demo123`
+
+For complete evaluation guidelines, see [EVALUATION.md](./EVALUATION.md)
+
+---
+
 ## 🎯 Features
 
-- **User Authentication**: Secure email/password authentication using NextAuth.js
-- **Oil Consumption Tracking**: Log meals with oil type and quantity used
-- **Visual Progress Tracking**: Real-time circular progress indicators showing daily oil usage
-- **RasoiAI Recipe Search**: Discover healthy, low-oil Indian recipes
-- **Points System**: Earn points for consistent tracking to stay motivated
-- **Daily Goals**: Set and monitor daily oil consumption goals (default: 30ml)
+- **🚀 One-Click Demo**: Instant access with pre-populated data for judges/evaluators
+- **🔐 User Authentication**: Secure email/password authentication using NextAuth.js
+- **📊 Oil Consumption Tracking**: Log meals with oil type and quantity used
+- **📈 Visual Progress Tracking**: Real-time circular progress indicators and weekly trends
+- **🍳 RasoiAI Recipe Search**: Discover healthy, low-oil Indian recipes
+- **🎮 Gamification System**: Earn points for consistent tracking to stay motivated
+- **🎯 Daily Goals**: Set and monitor daily oil consumption goals (default: 30ml)
+- **✨ Smooth Animations**: Framer Motion for seamless page transitions
+- **🔔 Toast Notifications**: Instant feedback for all actions
+- **💡 AI-Powered Insights**: Personalized recommendations based on consumption patterns
 
 ## 🏗️ Architecture
 
@@ -36,7 +60,8 @@ This project follows a **layered architecture** with clear separation of concern
 - **Framework**: [Next.js 15](https://nextjs.org/) (App Router)
 - **Database**: [MongoDB](https://www.mongodb.com/) with [Mongoose](https://mongoosejs.com/)
 - **Authentication**: [NextAuth.js v5](https://next-auth.js.org/)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
 - **Language**: TypeScript
 - **Password Hashing**: bcryptjs
 
