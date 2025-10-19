@@ -145,5 +145,153 @@
     "quantityInMl": 15,
     "cookingMethod": "Pressure cook chickpeas with tea bag. Heat 1 tbsp (15ml) oil, sauté onions, add tomatoes, spices, and cooked chickpeas.",
     "healthTips": "Chickpeas are protein-rich and filling. Minimize oil by using a good non-stick pan for sautéing. Serve with brown rice or whole wheat kulcha."
+  },
+  {
+    "dishName": "Sambar",
+    "ingredients": [
+      "1 cup toor dal",
+      "Mixed vegetables (drumsticks, carrots, pumpkin)",
+      "Sambar powder",
+      "Tamarind paste",
+      "Mustard seeds",
+      "Curry leaves",
+      "Asafoetida"
+    ],
+    "oilUsed": "Cooking oil",
+    "quantityInMl": 8,
+    "cookingMethod": "Cook dal and vegetables separately. For tadka, use 1.5 tsp (8ml) oil with mustard seeds, curry leaves. Mix everything with tamarind water and sambar powder.",
+    "healthTips": "Sambar is packed with vegetables and protein from dal. The minimal oil in tadka provides flavor without excess calories."
+  },
+  {
+    "dishName": "Aloo Gobi",
+    "ingredients": [
+      "2 potatoes",
+      "1 cauliflower",
+      "2 tomatoes",
+      "Ginger-garlic paste",
+      "Turmeric, cumin, coriander powder",
+      "Salt to taste"
+    ],
+    "oilUsed": "Cooking oil",
+    "quantityInMl": 12,
+    "cookingMethod": "Steam potatoes and cauliflower lightly. Use 2.5 tsp (12ml) oil to sauté spices, add tomatoes, then mix in vegetables. Cook covered.",
+    "healthTips": "Pre-steaming vegetables reduces cooking time and oil absorption. This dry curry needs minimal oil for maximum flavor."
+  },
+  {
+    "dishName": "Bhindi Masala",
+    "ingredients": [
+      "250g okra (bhindi)",
+      "2 onions",
+      "2 tomatoes",
+      "Ginger-garlic paste",
+      "Spice powders",
+      "Salt to taste"
+    ],
+    "oilUsed": "Cooking oil",
+    "quantityInMl": 12,
+    "cookingMethod": "Cut okra and dry roast in pan. Use 2.5 tsp (12ml) oil to sauté onions, add tomatoes, spices, then mix in roasted okra.",
+    "healthTips": "Dry roasting okra first eliminates the need for excess oil. Okra is rich in fiber and low in calories."
+  },
+  {
+    "dishName": "Rajma",
+    "ingredients": [
+      "1 cup kidney beans (soaked overnight)",
+      "2 onions",
+      "3 tomatoes",
+      "Ginger-garlic paste",
+      "Rajma masala",
+      "Salt to taste"
+    ],
+    "oilUsed": "Cooking oil",
+    "quantityInMl": 15,
+    "cookingMethod": "Pressure cook rajma. Use 1 tbsp (15ml) oil to sauté onions, add ginger-garlic, tomatoes, and spices. Mix in cooked rajma.",
+    "healthTips": "Kidney beans are an excellent protein source. The gravy needs minimal oil - use a non-stick pan for best results."
+  },
+  {
+    "dishName": "Paneer Tikka",
+    "ingredients": [
+      "250g paneer cubes",
+      "1 cup yogurt",
+      "Bell peppers and onions",
+      "Tikka masala",
+      "Lemon juice",
+      "Salt to taste"
+    ],
+    "oilUsed": "Cooking oil (for basting)",
+    "quantityInMl": 8,
+    "cookingMethod": "Marinate paneer in spiced yogurt. Skewer with vegetables and grill/bake. Brush with 1.5 tsp (8ml) oil while cooking.",
+    "healthTips": "Grilling or air-frying paneer tikka uses 80% less oil than traditional frying. High protein, low calorie appetizer."
+  },
+  {
+    "dishName": "Moong Dal Chilla",
+    "ingredients": [
+      "1 cup moong dal (soaked)",
+      "Ginger-green chili paste",
+      "Onions, tomatoes (chopped)",
+      "Coriander leaves",
+      "Salt to taste"
+    ],
+    "oilUsed": "Cooking oil",
+    "quantityInMl": 6,
+    "cookingMethod": "Grind soaked dal into batter. Spread on non-stick pan like pancake. Use 1 tsp (6ml) oil to cook each chilla until crisp.",
+    "healthTips": "Moong dal chilla is a protein-packed breakfast. Use non-stick pan to minimize oil. Great for weight management."
+  },
+  {
+    "dishName": "Vegetable Biryani",
+    "ingredients": [
+      "2 cups basmati rice",
+      "Mixed vegetables",
+      "2 onions",
+      "Yogurt",
+      "Biryani masala",
+      "Saffron, mint leaves"
+    ],
+    "oilUsed": "Ghee or oil",
+    "quantityInMl": 20,
+    "cookingMethod": "Partially cook rice. Sauté vegetables in 4 tsp (20ml) oil with spices. Layer rice and vegetables, cook dum style.",
+    "healthTips": "Traditional biryani uses 3x more oil. This version maintains flavor with reduced fat. Load up on vegetables for nutrition."
+  },
+  {
+    "dishName": "Paratha",
+    "ingredients": [
+      "2 cups whole wheat flour",
+      "Stuffing (potato/cauliflower/paneer)",
+      "Water for kneading",
+      "Salt to taste"
+    ],
+    "oilUsed": "Ghee or oil",
+    "quantityInMl": 15,
+    "cookingMethod": "Roll stuffed paratha and cook on tawa. Use 1 tbsp (15ml) total ghee/oil for cooking 4-5 parathas (3ml each).",
+    "healthTips": "Use whole wheat flour and minimal ghee. Stuff with vegetables for added nutrition. Pair with yogurt instead of butter."
+  },
+  {
+    "dishName": "Dhokla",
+    "ingredients": [
+      "1 cup gram flour (besan)",
+      "Yogurt",
+      "Fruit salt (Eno)",
+      "Mustard seeds",
+      "Curry leaves",
+      "Green chilies"
+    ],
+    "oilUsed": "Cooking oil",
+    "quantityInMl": 8,
+    "cookingMethod": "Steam gram flour batter. For tempering, use 1.5 tsp (8ml) oil with mustard seeds and curry leaves. Pour over dhokla.",
+    "healthTips": "Dhokla is steamed, making it naturally low in oil. High in protein from gram flour. Perfect guilt-free snack."
+  },
+  {
+    "dishName": "Biryani",
+    "ingredients": [
+      "2 cups basmati rice",
+      "500g vegetables or meat",
+      "2 onions",
+      "Yogurt",
+      "Biryani masala",
+      "Saffron, mint, coriander"
+    ],
+    "oilUsed": "Ghee or oil",
+    "quantityInMl": 20,
+    "cookingMethod": "Partially cook rice. Sauté meat/vegetables in 4 tsp (20ml) oil with spices and yogurt. Layer with rice, cook dum style.",
+    "healthTips": "Traditional biryani uses 60-80ml oil. This version uses 75% less while maintaining authentic taste. Choose lean protein options."
   }
 ]
