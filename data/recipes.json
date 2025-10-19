@@ -1,0 +1,149 @@
+[
+  {
+    "dishName": "Dosa",
+    "ingredients": [
+      "2 cups rice",
+      "1 cup urad dal",
+      "Salt to taste",
+      "Water as needed"
+    ],
+    "oilUsed": "Sunflower oil",
+    "quantityInMl": 5,
+    "cookingMethod": "Use a non-stick pan and spread a thin layer of dosa batter. Use only 1 tsp (5ml) of oil for greasing the pan.",
+    "healthTips": "Dosa is naturally low in oil. Use a good non-stick pan to reduce oil usage further. Serve with sambar and coconut chutney for a balanced meal."
+  },
+  {
+    "dishName": "Idli",
+    "ingredients": [
+      "2 cups idli rice",
+      "1 cup urad dal",
+      "Salt to taste",
+      "Water as needed"
+    ],
+    "oilUsed": "None",
+    "quantityInMl": 0,
+    "cookingMethod": "Steam the idli batter in idli molds for 10-12 minutes. No oil required.",
+    "healthTips": "Idli is a perfect zero-oil breakfast option. Rich in protein and easily digestible. Pair with sambar or chutney."
+  },
+  {
+    "dishName": "Dal Tadka",
+    "ingredients": [
+      "1 cup toor dal",
+      "2 tomatoes",
+      "1 onion",
+      "Cumin seeds",
+      "Turmeric powder",
+      "Red chili powder",
+      "Salt to taste"
+    ],
+    "oilUsed": "Ghee or oil",
+    "quantityInMl": 10,
+    "cookingMethod": "Pressure cook dal. For tadka, heat 2 tsp (10ml) of ghee or oil, add cumin seeds, onions, and tomatoes. Pour over cooked dal.",
+    "healthTips": "Use ghee instead of oil for better taste with the same quantity. Dal is protein-rich and the tadka needs minimal oil."
+  },
+  {
+    "dishName": "Vegetable Curry",
+    "ingredients": [
+      "Mixed vegetables (carrots, beans, peas, potatoes)",
+      "2 onions",
+      "2 tomatoes",
+      "Ginger-garlic paste",
+      "Spices (turmeric, coriander, cumin, garam masala)",
+      "Salt to taste"
+    ],
+    "oilUsed": "Cooking oil",
+    "quantityInMl": 15,
+    "cookingMethod": "Use 1 tbsp (15ml) oil to sauté onions, add ginger-garlic paste, tomatoes, and spices. Add vegetables and cook with little water.",
+    "healthTips": "Steam or microwave vegetables first to reduce cooking time and oil absorption. Use a pressure cooker to minimize oil usage."
+  },
+  {
+    "dishName": "Chapati",
+    "ingredients": [
+      "2 cups whole wheat flour",
+      "Water as needed",
+      "Salt to taste"
+    ],
+    "oilUsed": "Ghee (optional)",
+    "quantityInMl": 5,
+    "cookingMethod": "Knead dough, roll into circles, and cook on a hot tawa. Apply minimal ghee (1 tsp/5ml) after cooking if desired.",
+    "healthTips": "Chapati requires no oil during cooking. Apply ghee sparingly only for taste. Use whole wheat flour for added fiber."
+  },
+  {
+    "dishName": "Palak Paneer",
+    "ingredients": [
+      "250g paneer",
+      "500g spinach",
+      "2 onions",
+      "2 tomatoes",
+      "Ginger-garlic paste",
+      "Cream (optional)",
+      "Spices"
+    ],
+    "oilUsed": "Cooking oil",
+    "quantityInMl": 15,
+    "cookingMethod": "Blanch spinach and blend. Use 1 tbsp (15ml) oil to sauté onions, add tomatoes and spices. Mix in spinach puree and paneer cubes.",
+    "healthTips": "Bake or air-fry paneer instead of deep frying. Use low-fat paneer to reduce overall fat content."
+  },
+  {
+    "dishName": "Khichdi",
+    "ingredients": [
+      "1 cup rice",
+      "1/2 cup moong dal",
+      "Mixed vegetables",
+      "Cumin seeds",
+      "Turmeric powder",
+      "Salt to taste"
+    ],
+    "oilUsed": "Ghee",
+    "quantityInMl": 10,
+    "cookingMethod": "Heat 2 tsp (10ml) ghee, add cumin seeds. Add washed rice, dal, vegetables, and pressure cook with water and spices.",
+    "healthTips": "Khichdi is a comfort food that needs minimal oil. Rich in protein and easy to digest. Perfect for a light, healthy meal."
+  },
+  {
+    "dishName": "Upma",
+    "ingredients": [
+      "1 cup semolina (rava)",
+      "Vegetables (carrots, peas, beans)",
+      "Mustard seeds",
+      "Curry leaves",
+      "Cashews",
+      "Salt to taste"
+    ],
+    "oilUsed": "Cooking oil",
+    "quantityInMl": 10,
+    "cookingMethod": "Dry roast rava. Heat 2 tsp (10ml) oil, add mustard seeds, curry leaves, vegetables. Add water and roasted rava, cook until done.",
+    "healthTips": "Upma is naturally low in oil. Add more vegetables to increase nutrition and reduce the proportion of semolina."
+  },
+  {
+    "dishName": "Poha",
+    "ingredients": [
+      "2 cups flattened rice (poha)",
+      "1 onion",
+      "1 potato",
+      "Peanuts",
+      "Mustard seeds",
+      "Curry leaves",
+      "Turmeric powder"
+    ],
+    "oilUsed": "Cooking oil",
+    "quantityInMl": 10,
+    "cookingMethod": "Rinse poha and drain. Heat 2 tsp (10ml) oil, add mustard seeds, curry leaves, onions, potato. Mix in poha and spices.",
+    "healthTips": "Poha is light and requires minimal oil. Add peanuts for protein and crunch. A perfect low-oil breakfast option."
+  },
+  {
+    "dishName": "Chole",
+    "ingredients": [
+      "2 cups chickpeas (soaked overnight)",
+      "2 onions",
+      "3 tomatoes",
+      "Ginger-garlic paste",
+      "Chole masala",
+      "Tea bag (for color)",
+      "Salt to taste"
+    ],
+    "oilUsed": "Cooking oil",
+    "quantityInMl": 15,
+    "cookingMethod": "Pressure cook chickpeas with tea bag. Heat 1 tbsp (15ml) oil, sauté onions, add tomatoes, spices, and cooked chickpeas.",
+    "healthTips": "Chickpeas are protein-rich and filling. Minimize oil by using a good non-stick pan for sautéing. Serve with brown rice or whole wheat kulcha."
+  }
+]
