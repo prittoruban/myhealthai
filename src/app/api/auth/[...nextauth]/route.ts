@@ -17,35 +17,42 @@ export const authConfig: NextAuthConfig = {
           throw new Error('Please provide both email and password');
         }
 
-        await connectDB();
+        try {
+          await connectDB();
 
-        const user = await User.findOne({ email: credentials.email });
+          const user = await User.findOne({ email: credentials.email });
 
-        if (!user) {
-          throw new Error('No user found with this email');
+          if (!user) {
+            throw new Error('No user found with this email');
+          }
+
+          const isPasswordValid = await bcrypt.compare(
+            credentials.password as string,
+            user.password
+          );
+
+          if (!isPasswordValid) {
+            throw new Error('Invalid password');
+          }
+
+          return {
+            id: user._id.toString(),
+            email: user.email,
+          };
+        } catch (error) {
+          console.error('Auth error:', error);
+          throw error;
         }
-
-        const isPasswordValid = await bcrypt.compare(
-          credentials.password as string,
-          user.password
-        );
-
-        if (!isPasswordValid) {
-          throw new Error('Invalid password');
-        }
-
-        return {
-          id: user._id.toString(),
-          email: user.email,
-        };
       },
     }),
   ],
   session: {
     strategy: 'jwt',
+    maxAge: 30 * 24 * 60 * 60, // 30 days
   },
   pages: {
     signIn: '/login',
+    error: '/login',
   },
   callbacks: {
     async jwt({ token, user }) {
@@ -64,6 +71,7 @@ export const authConfig: NextAuthConfig = {
     },
   },
   secret: process.env.NEXTAUTH_SECRET,
+  trustHost: true, // Important for deployment on platforms like Vercel
 };
 
 export const { handlers, auth, signIn, signOut } = NextAuth(authConfig);
